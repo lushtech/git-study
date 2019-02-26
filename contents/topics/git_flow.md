@@ -32,8 +32,17 @@ You will find you are on master branch which is the default.
 branch develop
 
 ```
+#Build branch
+
 git checkout -b develop
 
+
+#Push local branch to remote branch
+
+git push --set-upstream origin develop
+
+#
+git branch -v
 
 ```
 
