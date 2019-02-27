@@ -62,6 +62,20 @@ git branch -v
 #it will show the name of master branch.
 git branch --merge
 
+
+############ if you want to delete a branch, fro example develop branch
+#Delete local branch
+
+git branch -d develop
+
+
+#Delete remote branch
+
+git push origin --delete develop
+
+############
+
+
 ```
 
 
